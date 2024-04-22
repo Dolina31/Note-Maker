@@ -1,0 +1,1 @@
+Possibilité de changer le style de la page Notes (mode SF, Fansaty, post-apo etc.. en changeant la police d'écriture et le style des notes) en cliquant sur un menu déroulant
