@@ -1,0 +1,10 @@
+.login-page,
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 92vh;
+  background-image: url("../../../public/images/login-signup-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
