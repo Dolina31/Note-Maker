@@ -1,0 +1,53 @@
+button {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  font-size: 2.8rem;
+  border: none;
+  display: inline-block;
+  position: relative;
+  transition: all 0.4s;
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+
+  &:after {
+    content: "";
+    padding-top: 25px;
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(175, 0, 0, 0.479);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.homepage-button {
+  margin-top: 60px;
+}
+
+.submit-button {
+  font-weight: 300;
+  margin-top: 15px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(175, 0, 0, 0.479);
+  margin-bottom: 35px;
+
+  &:after {
+    padding-top: 13px;
+  }
+}

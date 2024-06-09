@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-red-color {
+  color: rgb(175, 0, 0);
+  transition: transform 0.3s 0.2s;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-redirection {
+  height: 35vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-red-color {
+  color: rgb(175, 0, 0);
+  transition: transform 0.3s 0.2s;
+}
+
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  background-image: url("../../../public/images/suganth-7dB0fRkaqv4-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  box-shadow: 0px 0px 6px rgb(137, 137, 137);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  width: 100%;
+}
+.navbar img {
+  height: 48px;
+  margin: 2px 0px 2px 20px;
+  transition: transform 0.3s;
+}
+.navbar img:hover {
+  transform: scale(1.1);
+}
+
+.links {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 1.3em;
+  display: flex;
+  list-style-type: none;
+}
+.links li {
+  color: black;
+  margin-left: 30px;
+  transition: transform 0.3s;
+  cursor: pointer;
+  list-style-type: none;
+}
+.links li:hover {
+  transform: scale(1.1);
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+.hover-underline-animation:after {
+  content: "";
+  padding-top: 10px;
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(175, 0, 0, 0.479);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+.hero {
+  height: 91vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .react-parallax-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.6s ease-in-out;
+}
+.hero .react-parallax-content .react-parallax-bgimage {
+  z-index: -1;
+}
+.hero .react-parallax-content:hover .text-red-color {
+  transform: scale(5);
+}
+.hero .react-parallax-content:hover h1,
+.hero .react-parallax-content:hover p {
+  transform: scale(1.1);
+}
+.hero h1 {
+  color: white;
+  font-size: 4rem;
+  letter-spacing: 3px;
+  font-weight: 200;
+  transition: all 0.7s 0.3s;
+}
+.hero p {
+  margin-top: 5px;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  font-weight: 200;
+  transition: all 0.7s 0.3s;
+}
+
+.hero1 .react-parallax-content {
+  background: rgba(172, 169, 169, 0.3);
+}
+.hero1 .react-parallax-content:hover {
+  background: rgba(100, 100, 100, 0.3);
+}
+
+.hero2 {
+  height: 70vh;
+}
+.hero2 .react-parallax-content {
+  background: rgb(245, 245, 245);
+}
+.hero2 .react-parallax-content:hover {
+  background: rgb(230, 230, 230);
+}
+.hero2 h1,
+.hero2 p {
+  color: black;
+}
+
+.hero3 {
+  height: 70vh;
+}
+.hero3 .react-parallax-content {
+  background: rgba(90, 90, 90, 0.493);
+}
+.hero3 .react-parallax-content:hover {
+  background: rgba(65, 65, 65, 0.432);
+}
+
+.footer {
+  padding: 22px;
+  background: rgb(66, 66, 66);
+  width: 100%;
+}
+.footer p {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95%;
+  width: 45%;
+  background: rgba(255, 255, 255, 0.486);
+  color: rgb(0, 0, 0);
+  margin-left: 3%;
+  font-size: 1.5rem;
+}
+.signup-form h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+  font-size: 2.5rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(175, 0, 0, 0.479);
+}
+.signup-form .signup-inputs {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  padding-top: 40px;
+}
+.signup-form .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+  letter-spacing: 0.2em;
+}
+.signup-form .input-wrapper:hover {
+  transform: scale(11.5rem);
+}
+.signup-form .input-wrapper input {
+  padding: 10px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.15rem;
+  width: 100%;
+}
+.signup-form .input-wrapper label {
+  text-align: start;
+}
+
+button {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  font-size: 2.8rem;
+  border: none;
+  display: inline-block;
+  position: relative;
+  transition: all 0.4s;
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+button:after {
+  content: "";
+  padding-top: 25px;
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(175, 0, 0, 0.479);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+button:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+.homepage-button {
+  margin-top: 60px;
+}
+
+.submit-button {
+  font-weight: 300;
+  margin-top: 15px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(175, 0, 0, 0.479);
+}
+.submit-button:after {
+  padding-top: 15px;
+}
+
+/*# sourceMappingURL=index.css.map */

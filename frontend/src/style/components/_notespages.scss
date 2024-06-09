@@ -1,0 +1,25 @@
+.notespage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10%;
+  padding: 15px;
+  height: 100vh;
+  background-image: url("../../../public/images/backgroundnoir.png");
+  background-size: cover;
+}
+
+p {
+  color: white;
+  margin-top: 30px;
+  font-weight: 200;
+  font-size: 2em;
+}
+
+.newNote-form {
+  padding: 30px;
+
+  .newNote-form_input {
+    width: 30%;
+  }
+}
